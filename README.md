@@ -1,10 +1,9 @@
 # Weed Detection using MaskRCNN
 
-You can read a detailed report of this project [here](https://docs.google.com/document/d/1p-Yi2SdHGUgQ37hgAk6Tu-bumZAodTc6Yrn12DXc0fc/edit?usp=sharing) and a video tutorial [here](https://www.youtube.com/watch?v=JAQFvAdFhNs).
+You can read a detailed report of this project [here](https://docs.google.com/document/d/1p-Yi2SdHGUgQ37hgAk6Tu-bumZAodTc6Yrn12DXc0fc/edit?usp=sharing) 
 Also don't forget to star this repository if this project helped you.
 
-### Update Version 1.1 11/06/2020
-We have re-annotated the images with few bug fix and improvements in perfomancy and have added a second class to the dataset
+### Update Version 1.1 11/06/2020 have re-annotated the images with few bug fix and improvements in perfomancy and have added a second class to the dataset
 the model now can differentiate between both weed and crop.
 
 Number of classes:2(crop and weed)+1(background)
@@ -49,7 +48,6 @@ tensorboard --logdir=logs
 ```
 
 
-This project was made as part of induction to Robotics Interest Group(RIG),National Institute of Technology,Calicut by [Ajin J](mailto:akhilajin944@gmail.com?subject=[GitHub]%20Weed%20Detection) and [Abel C Dixon](mailto:abelcheruvathoor@gmail.com?subject=[GitHub]%20Weed%20Detection). 
 
 ### Citation
 + [MaskRCNN Paper](https://arxiv.org/pdf/1703.06870.pdf)
